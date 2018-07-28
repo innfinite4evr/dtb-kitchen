@@ -4,12 +4,17 @@ total lezy hek to split appended dtb, convert dtb to dts, convert dts to dtb , a
 Download and place latest split-appended-dtb to working directory
 
 chmod +x dt2dts.sh
+
 chmod +x split-appended-dtb
+
 ./dt2dts.sh
 
 Wanna split that appended dtb from Image.gz-dtb/zImage.dtb?
+
 00)cleanup
+
 0)yes
+
 1)no
 
 
@@ -24,8 +29,11 @@ and kept in dtb folder and want to convert dtb2dts/dts2dtb or appenddtbs
 LOOKOUT: dtb dts newdtb folders were DELETED
 
 Wanna split that appended dtb from Image.gz-dtb/zImage.dtb?
+
 00)cleanup
+
 0)yes
+
 1)no
 
 0
